@@ -1,9 +1,19 @@
-<h1>Costumes</h1>
+<h1 style="background-color:blue;color:white;">Costumes</h1>
 
 <%= link_to 'Add a New Costume', new_costume_url %></p>
 
 <table>
-
+  <thread>
+    <tr>
+      <th>Costume</th>
+      <th>Themes</th>
+      <th>Price</th>
+      <th>Currency</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thread>
 
   <tbody>
   <% @costumes.each do |costume| %>
